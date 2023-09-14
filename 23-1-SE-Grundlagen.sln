@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner", "Taschenrechner\Taschenrechner.csproj", "{632F0B1E-DCC3-479F-9FCD-921F463A14A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taschenrechner", "Taschenrechner\Taschenrechner.csproj", "{632F0B1E-DCC3-479F-9FCD-921F463A14A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schleifen", "Schleifen\Schleifen.csproj", "{763C9194-E47C-4A7A-9DAF-9B071191D187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schleifen", "Schleifen\Schleifen.csproj", "{763C9194-E47C-4A7A-9DAF-9B071191D187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontrollstrukturen", "Kontrollstrukturen\Kontrollstrukturen.csproj", "{B843F31F-6AF4-47C0-86BD-72EA61FCC5E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funktionen", "Funktionen\Funktionen.csproj", "{7AF27AAA-9BDB-45F7-B3BA-7ACB56EBF25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variablen und Datentypen", "Variablen und Datentypen\Variablen und Datentypen.csproj", "{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{763C9194-E47C-4A7A-9DAF-9B071191D187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763C9194-E47C-4A7A-9DAF-9B071191D187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763C9194-E47C-4A7A-9DAF-9B071191D187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B843F31F-6AF4-47C0-86BD-72EA61FCC5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B843F31F-6AF4-47C0-86BD-72EA61FCC5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B843F31F-6AF4-47C0-86BD-72EA61FCC5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B843F31F-6AF4-47C0-86BD-72EA61FCC5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF27AAA-9BDB-45F7-B3BA-7ACB56EBF25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF27AAA-9BDB-45F7-B3BA-7ACB56EBF25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF27AAA-9BDB-45F7-B3BA-7ACB56EBF25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF27AAA-9BDB-45F7-B3BA-7ACB56EBF25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
