@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontrollstrukturen", "Kontr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funktionen", "Funktionen\Funktionen.csproj", "{7AF27AAA-9BDB-45F7-B3BA-7ACB56EBF25F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variablen und Datentypen", "Variablen und Datentypen\Variablen und Datentypen.csproj", "{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variablen und Datentypen", "Variablen und Datentypen\Variablen und Datentypen.csproj", "{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{36A4376E-4BA6-4C97-9E41-1CFFFDC45E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A39CB1F-02B3-48A7-B99F-060D3B475A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A4376E-4BA6-4C97-9E41-1CFFFDC45E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A4376E-4BA6-4C97-9E41-1CFFFDC45E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A4376E-4BA6-4C97-9E41-1CFFFDC45E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A4376E-4BA6-4C97-9E41-1CFFFDC45E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
