@@ -1,12 +1,12 @@
-﻿int GetNumber()
+﻿decimal GetNumber()
 {
-  int num = 0;
+  decimal num = 0;
   bool checkParse = false;
   do
   {
     Console.WriteLine(" Bitte gib eine Zahl ein ");
     string input = Console.ReadLine();
-    checkParse = int.TryParse(input, out num);
+    checkParse = decimal.TryParse(input, out num);
 
     if (checkParse == false)
     {
@@ -20,8 +20,8 @@
 Console.WriteLine("Willkommen beim Taschenrechner 3000");
 bool checkParse1 = false;
 bool checkParse2 = false;
-int num1 = 0;
-int num2 = 0;
+decimal num1 = 0;
+decimal num2 = 0;
 while (!checkParse1 || !checkParse2)
 {
   Console.WriteLine("Bitte gebe Zahl 1 an:");
@@ -32,19 +32,19 @@ while (!checkParse1 || !checkParse2)
 
 
   // Konvertierung von Text zu Zahlen
-  checkParse1 = int.TryParse(input1, out num1);
-  checkParse2 = int.TryParse(input2, out num2);
+  checkParse1 = decimal.TryParse(input1, out num1);
+  checkParse2 = decimal.TryParse(input2, out num2);
 }
 var result = num1 + num2;
 Console.WriteLine($"{num1} + {num2} = {result}");
 */
 
-// Entweder (Var), Oder (Datentyp eg. string, int, float, decimal,...)
+// Entweder (Var), Oder (Datentyp eg. string, decimal, float, decimal,...)
 //string test1 = "Buxtehude";
-//int test2 = 69;
+//decimal test2 = 69;
 //var test3 = "Buxtehude";
 //test3 = 69;
-//var int x = 420; // "Var" ist nicht kombinierbar mit Datentypenangaben
+//var decimal x = 420; // "Var" ist nicht kombinierbar mit Datentypenangaben
 
 
 string GetOperation()
@@ -62,14 +62,14 @@ string GetOperation()
     {
       Console.WriteLine("Invalid operation. Please try again.");
     }
-    
+
   } while (validOperation == false);
 
 
   return operation;
 }
 
-int Calculate(int num1, int num2, string operation)
+decimal Calculate(decimal num1, decimal num2, string operation)
 {
   switch (operation)
   {
@@ -83,12 +83,23 @@ int Calculate(int num1, int num2, string operation)
   }
 }
 
+
+
+
 Console.WriteLine("Willkommen beim Taschenrechner 3000?");
+while (true)
+{
+  // get user input
+  var num1 = GetNumber();
+  var num2 = GetNumber();
+  var operation = GetOperation();
 
-var num1 = GetNumber();
-var num2 = GetNumber();
-var operation = GetOperation();
 
-var result = Calculate(num1, num2, operation);
+  // calculate result
+  var result = Calculate(num1, num2, operation);
+  // Display output
+  Console.WriteLine($"{num1} {num2} {operation} = {result}");
+  Console.WriteLine("------------------------------------------------------------");
+}
 
-Console.WriteLine($"{num1} {num2} {operation} = {result}");
+
