@@ -57,13 +57,14 @@ intList.Sort();
 Console.WriteLine(string.Join(", ", intList));
 
 Console.WriteLine("FOR-EACH");
+
 foreach (var name in names)
 {
   Console.WriteLine(name);
 }
-for(int i = 0; i < 10; i++)
+for(int i = 0; i < intList.Count; i++)
 {
-  Console.WriteLine("FOR");
+  Console.WriteLine(intList[i]);
 }
 
 #endregion
