@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fakultät Aufgabe", "Fakult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasse-Taschenrechner", "Klasse-Taschenrechner\Klasse-Taschenrechner.csproj", "{DC4E5686-43EC-4265-ACE6-3CB649DDC3A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrundlagenOOP", "GrundlagenOOP\GrundlagenOOP.csproj", "{E3540E7F-8907-4FD1-BE93-6372D344B6E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DC4E5686-43EC-4265-ACE6-3CB649DDC3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC4E5686-43EC-4265-ACE6-3CB649DDC3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC4E5686-43EC-4265-ACE6-3CB649DDC3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿namespace Klasse_Taschenrechner
 {
-  public class Calculator
+  public static class Calculator
   {
 
     public static int Add(int number1, int number2)
