@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Algorhitmen\Algorhitmen.csproj" />
     <ProjectReference Include="..\Fakultät Aufgabe\Fakultät Aufgabe.csproj" />
+    <ProjectReference Include="..\Klasse-Taschenrechner\Klasse-Taschenrechner.csproj" />
   </ItemGroup>
 
 </Project>

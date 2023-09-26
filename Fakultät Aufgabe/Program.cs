@@ -28,19 +28,32 @@ Gebe Ergebnis zurück
 
 namespace Algorithmus;
 
-public static class MatheAlgorithmus 
-{ 
-		public static int Fakturierung(int n) 
-		{
-		 var i = n;
-		 var result = n;
-		 while (i > 1);
-			{
-				i--;
-				result = result * i;
-				
-			}
+public static class MatheAlgorithmus
+{
+  public static int Fakturierung(int n)
+  {
+    var i = n;
+    var result = n;
+    while (i > 1) ;
+    {
+      i--;
+      result = result * i;
 
-		return result;
-		} 
+    }
+
+    return result;
+  }
+
+  public static int FactorialFor(int n)
+  {
+    int sum = n;
+    for (int i = 1; i < n; i++)
+    {
+      sum = sum * i;
+    }
+    return sum;
+  }
+
+
+
 }

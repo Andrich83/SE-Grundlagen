@@ -10,7 +10,7 @@ public class MatheAlgorithmusTest
     var n = 5;
     var erwartet = 120;
 
-    Assert.Equal(erwartet, MatheAlgorithmus.Fakturierung(n));
+    Assert.Equal(erwartet, MatheAlgorithmus.FactorialFor(n));
 
 
   }
@@ -21,6 +21,6 @@ public class MatheAlgorithmusTest
     var n = 8;
     var erwartet = 40_320;
 
-    Assert.Equal(erwartet, MatheAlgorithmus.Fakturierung(n));
+    Assert.Equal(erwartet, MatheAlgorithmus.FactorialFor(n));
   }
 }

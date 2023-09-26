@@ -9,6 +9,7 @@
       "Test Algorithmen/1.0.0": {
         "dependencies": {
           "Algorhitmen": "1.0.0",
+          "Klasse-Taschenrechner": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.6.0",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
@@ -1030,6 +1031,11 @@
         "runtime": {
           "Fakultät Aufgabe.dll": {}
         }
+      },
+      "Klasse-Taschenrechner/1.0.0": {
+        "runtime": {
+          "Klasse-Taschenrechner.dll": {}
+        }
       }
     }
   },
@@ -1668,6 +1674,11 @@
       "sha512": ""
     },
     "Fakultät Aufgabe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Klasse-Taschenrechner/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
