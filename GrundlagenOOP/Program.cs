@@ -36,6 +36,25 @@
       Cat.Schnurren();
 
       Console.ReadLine();
+
+      // fields vs properties
+      Dog myDoggo = new Dog(2, "Marley", "black", 7);
+      var myDoggo2 = new Dog(1, "Susi", "white", 4);
+      Dog myDoggo3 = new Dog(3, "Marley", "yellow", 7);
+
+      myDoggo.name = "fritz";
+      myDoggo.Id = 1;
+      Console.WriteLine(myDoggo.Id);
+
+      Console.WriteLine("*********************************");
+      Console.WriteLine(myDoggo.Color);
+      myDoggo.Color = "yellow";
+      Console.WriteLine(myDoggo.Color);
+
+
+
+      myDoggo.Wuff();
+      Console.WriteLine("Wuff");
     }
   }
 }

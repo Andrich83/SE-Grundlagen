@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Algorithmen", "Test Al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fakultät Aufgabe", "Fakultät Aufgabe\Fakultät Aufgabe.csproj", "{9459D8FE-8DC0-4598-BA51-376D01E28D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasse-Taschenrechner", "Klasse-Taschenrechner\Klasse-Taschenrechner.csproj", "{DC4E5686-43EC-4265-ACE6-3CB649DDC3A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasse-Taschenrechner", "Klasse-Taschenrechner\Klasse-Taschenrechner.csproj", "{DC4E5686-43EC-4265-ACE6-3CB649DDC3A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrundlagenOOP", "GrundlagenOOP\GrundlagenOOP.csproj", "{E3540E7F-8907-4FD1-BE93-6372D344B6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrundlagenOOP", "GrundlagenOOP\GrundlagenOOP.csproj", "{E3540E7F-8907-4FD1-BE93-6372D344B6E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wörtel", "Wörtel\Wörtel.csproj", "{8E873067-B47B-46B8-9B77-F560C52C75D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNAKE", "SNAKE\SNAKE.csproj", "{807F8E8E-D805-4469-8F85-FBD180F11850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3540E7F-8907-4FD1-BE93-6372D344B6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E873067-B47B-46B8-9B77-F560C52C75D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E873067-B47B-46B8-9B77-F560C52C75D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E873067-B47B-46B8-9B77-F560C52C75D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E873067-B47B-46B8-9B77-F560C52C75D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807F8E8E-D805-4469-8F85-FBD180F11850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807F8E8E-D805-4469-8F85-FBD180F11850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807F8E8E-D805-4469-8F85-FBD180F11850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807F8E8E-D805-4469-8F85-FBD180F11850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
